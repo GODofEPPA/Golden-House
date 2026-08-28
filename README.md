@@ -53,3 +53,4 @@ sitemap.xml, robots.txt, site.webmanifest
 - Krem (bakgrunn): `#faf6ee`
 # Golden-House
 # Golden-House
+# Golden-House
