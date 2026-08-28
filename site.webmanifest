@@ -1,0 +1,17 @@
+{
+  "name": "Golden House",
+  "short_name": "Golden House",
+  "description": "Asiatisk takeaway i Sandnes",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#faf6ee",
+  "theme_color": "#1a1512",
+  "lang": "no",
+  "icons": [
+    {
+      "src": "images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

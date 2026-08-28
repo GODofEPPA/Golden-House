@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1512"/>
+      <stop offset="100%" stop-color="#7a1a17"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="290" r="130" fill="none" stroke="#c9a24b" stroke-width="4"/>
+  <text x="600" y="315" font-family="Georgia, serif" font-size="90" font-weight="700" fill="#c9a24b" text-anchor="middle">GH</text>
+  <text x="600" y="450" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#faf6ee" text-anchor="middle">Golden House</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="28" fill="#e0c27f" text-anchor="middle">Asiatisk takeaway i Sandnes</text>
+</svg>
