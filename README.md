@@ -51,3 +51,4 @@ sitemap.xml, robots.txt, site.webmanifest
 - Rødt: `#a3231f`
 - Gull: `#c9a24b`
 - Krem (bakgrunn): `#faf6ee`
+# Golden-House
