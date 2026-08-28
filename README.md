@@ -16,7 +16,7 @@ og gå til `http://localhost:8000`.
 
 - [ ] **Telefonnummer** — vises som "(SETT INN TELEFONNUMMER)" i header, footer, kontaktside og JSON-LD (`tel:+4700000000`) på alle 4 sider
 - [ ] **Postnummer** — satt til `4306 Sandnes` som placeholder for "Foren 3, Sandnes", må bekreftes (i `kontakt.html`, `index.html` og JSON-LD i begge filer)
-- [ ] **E-postadresse** — `post@goldenhouse.no` er placeholder
+- [x] **E-postadresse** — satt til `goldenhouse@gmail.com`
 - [ ] **Domene** — `https://www.goldenhouse.no/` er placeholder brukt i canonical-tagger, Open Graph, sitemap.xml og robots.txt — oppdater til faktisk domene
 - [ ] **Meny og priser** — eksempelretter i `meny.html` og menyhøydepunkter i `index.html` må erstattes med ekte meny
 - [ ] **Om oss-tekst** — historien/teksten i `om-oss.html` er eksempeltekst
