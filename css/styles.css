@@ -366,6 +366,51 @@ p {
   margin: 0 auto;
   color: var(--color-gold);
   opacity: 0.9;
+  animation: hero-emblem-float 6s ease-in-out infinite;
+}
+
+.hero-emblem-steam path {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.hero-emblem-steam-1 {
+  animation: hero-emblem-steam-rise 3s ease-in-out infinite;
+}
+
+.hero-emblem-steam-2 {
+  animation: hero-emblem-steam-rise 3s ease-in-out infinite 0.5s;
+}
+
+.hero-emblem-steam-3 {
+  animation: hero-emblem-steam-rise 3s ease-in-out infinite 1s;
+}
+
+@keyframes hero-emblem-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hero-emblem-steam-rise {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-emblem,
+  .hero-emblem-steam path {
+    animation: none;
+  }
 }
 
 .hero-scroll-cue {
