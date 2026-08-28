@@ -52,3 +52,4 @@ sitemap.xml, robots.txt, site.webmanifest
 - Gull: `#c9a24b`
 - Krem (bakgrunn): `#faf6ee`
 # Golden-House
+# Golden-House
