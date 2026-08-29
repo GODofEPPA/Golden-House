@@ -36,3 +36,24 @@
     }
   });
 })();
+
+(function () {
+  var mapContent = document.getElementById("map-content");
+  var mapSlot = document.querySelector(".map-slot");
+
+  if (!mapContent || !mapSlot) return;
+
+  var desktopHome = mapContent.parentElement;
+  var mq = window.matchMedia("(max-width: 899px)");
+
+  function applyLayout(event) {
+    if (event.matches) {
+      mapSlot.appendChild(mapContent);
+    } else {
+      desktopHome.appendChild(mapContent);
+    }
+  }
+
+  mq.addEventListener("change", applyLayout);
+  applyLayout(mq);
+})();

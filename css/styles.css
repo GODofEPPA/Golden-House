@@ -645,6 +645,38 @@ p {
   box-shadow: var(--shadow);
 }
 
+.nap-list li.map-slot {
+  display: none;
+}
+
+.map-slot #map-content {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+@media (max-width: 899px) {
+  .nap-phone {
+    order: 1;
+  }
+
+  .nap-email {
+    order: 2;
+  }
+
+  .nap-address {
+    order: 3;
+  }
+
+  .nap-list li.map-slot:not(:empty) {
+    order: 4;
+    display: block;
+  }
+
+  #finn-oss-heading {
+    display: none;
+  }
+}
+
 .placeholder-note,
 .hours-note {
   font-size: 0.85rem;
