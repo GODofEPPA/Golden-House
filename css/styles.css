@@ -211,7 +211,7 @@ p {
   flex-shrink: 0;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 599px) {
   .phone-cta span {
     display: none;
   }
@@ -338,6 +338,13 @@ p {
 .hero h1 {
   color: #fff;
   max-width: 18ch;
+}
+
+@media (max-width: 899px) {
+  .hero-split h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero-lead {
