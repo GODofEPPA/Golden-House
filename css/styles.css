@@ -645,10 +645,16 @@ p {
   box-shadow: var(--shadow);
 }
 
-.placeholder-note {
+.placeholder-note,
+.hours-note {
   font-size: 0.85rem;
   color: var(--color-text-muted);
   font-style: italic;
+}
+
+.hours-note {
+  display: block;
+  margin-top: 0.75rem;
 }
 
 /* ---- Footer ---- */
