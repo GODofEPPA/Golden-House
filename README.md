@@ -15,7 +15,7 @@ og gå til `http://localhost:8000`.
 ## Sjekkliste før lansering (placeholders som må erstattes)
 
 - [ ] **Telefonnummer** — vises som "(SETT INN TELEFONNUMMER)" i header, footer, kontaktside og JSON-LD (`tel:+4700000000`) på alle 4 sider
-- [ ] **Postnummer** — satt til `4306 Sandnes` som placeholder for "Foren 2, Sandnes", må bekreftes (i `kontakt.html`, `index.html` og JSON-LD i begge filer)
+- [x] **Postnummer** — bekreftet: `4318 Sandnes` for "Foren 2"
 - [x] **E-postadresse** — satt til `goldenhouse@gmail.com`
 - [ ] **Domene** — `https://www.goldenhouse.no/` er placeholder brukt i canonical-tagger, Open Graph, sitemap.xml og robots.txt — oppdater til faktisk domene
 - [ ] **Meny og priser** — eksempelretter i `meny.html` og menyhøydepunkter i `index.html` må erstattes med ekte meny
@@ -30,7 +30,7 @@ Siden bruker egne håndtegnede SVG-illustrasjoner (linjetegninger i gull/rødt/s
 - Illustrasjonspaneler: `om-oss.html` (`.illustration-panel`)
 
 Alle er inline SVG i HTML-filene (søk etter `<svg class="hero-emblem"`, `class="category-icon"`, `class="dish-icon"` eller `class="illustration-panel"`), så de er enkle å style om eller erstatte med `<img>`-tagger senere.
-- [ ] **Kart** — kartet i `kontakt.html` bruker adressen "Foren 2, Sandnes" via Google Maps-embed; sjekk at det treffer riktig når postnummer er bekreftet
+- [x] **Kart** — kartet i `kontakt.html` bruker den bekreftede adressen "Foren 2, 4318 Sandnes" via Google Maps-embed
 
 ## Struktur
 
