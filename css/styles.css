@@ -367,57 +367,56 @@ p {
   order: -1;
 }
 
-.hero-emblem {
+.hero-photo-frame {
+  background: var(--color-cream);
+  padding: 14px;
+  border-radius: var(--radius);
+  box-shadow: 0 16px 32px rgba(10, 7, 5, 0.4);
+  transform: rotate(2deg);
   width: 100%;
-  max-width: clamp(120px, 32vw, 280px);
-  margin: 0 auto;
+  max-width: 280px;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 2px solid var(--color-red-dark);
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(250, 246, 238, 0.15);
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.hero-stat-value {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-gold-light);
+}
+
+.hero-stat-star {
   color: var(--color-gold);
-  opacity: 0.9;
-  animation: hero-emblem-float 6s ease-in-out infinite;
 }
 
-.hero-emblem-steam path {
-  transform-box: fill-box;
-  transform-origin: center;
-}
-
-.hero-emblem-steam-1 {
-  animation: hero-emblem-steam-rise 3s ease-in-out infinite;
-}
-
-.hero-emblem-steam-2 {
-  animation: hero-emblem-steam-rise 3s ease-in-out infinite 0.5s;
-}
-
-.hero-emblem-steam-3 {
-  animation: hero-emblem-steam-rise 3s ease-in-out infinite 1s;
-}
-
-@keyframes hero-emblem-float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-}
-
-@keyframes hero-emblem-steam-rise {
-  0%, 100% {
-    transform: translateY(0);
-    opacity: 0.35;
-  }
-  50% {
-    transform: translateY(-6px);
-    opacity: 1;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-emblem,
-  .hero-emblem-steam path {
-    animation: none;
-  }
+.hero-stat-label {
+  font-size: 0.8rem;
+  color: var(--color-cream-dark);
+  opacity: 0.85;
 }
 
 .hero-scroll-cue {
@@ -892,6 +891,10 @@ p {
   }
 
   .hero-actions {
+    justify-content: flex-start;
+  }
+
+  .hero-stats {
     justify-content: flex-start;
   }
 }
