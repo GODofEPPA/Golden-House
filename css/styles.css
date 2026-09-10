@@ -295,8 +295,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - var(--header-height));
-  min-height: calc(100dvh - var(--header-height));
+  min-height: min(calc(100vh - var(--header-height)), 820px);
+  min-height: min(calc(100dvh - var(--header-height)), 820px);
 }
 
 .hero::before {
@@ -374,7 +374,7 @@ p {
   box-shadow: 0 16px 32px rgba(10, 7, 5, 0.4);
   transform: rotate(2deg);
   width: 100%;
-  max-width: 280px;
+  max-width: clamp(280px, 26vw, 420px);
 }
 
 .hero-photo {
