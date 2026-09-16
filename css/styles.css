@@ -602,6 +602,7 @@ p {
   display: grid;
   gap: 2.5rem;
   grid-template-columns: 1fr;
+  max-width: 640px;
 }
 
 .nap-list {
@@ -626,21 +627,22 @@ p {
   margin-top: 0.2rem;
 }
 
-.map-embed {
+.leaflet-map {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  border: 0;
+  height: 400px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  z-index: 0;
 }
 
-.nap-list li.map-slot {
-  display: none;
+.map-directions {
+  margin: 0.75rem 0 1.25rem;
+  font-size: 0.9rem;
 }
 
-.map-slot #map-content {
-  margin-top: 0.5rem;
-  width: 100%;
+.map-directions a {
+  color: var(--color-red);
+  font-weight: 600;
 }
 
 @media (max-width: 899px) {
@@ -654,15 +656,6 @@ p {
 
   .nap-address {
     order: 3;
-  }
-
-  .nap-list li.map-slot:not(:empty) {
-    order: 4;
-    display: block;
-  }
-
-  #finn-oss-heading {
-    display: none;
   }
 }
 
@@ -858,10 +851,6 @@ p {
 
   .grid-4 {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .contact-grid {
-    grid-template-columns: 1fr 1fr;
   }
 
   .footer-grid {

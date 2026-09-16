@@ -38,24 +38,27 @@
 })();
 
 (function () {
-  var mapContent = document.getElementById("map-content");
-  var mapSlot = document.querySelector(".map-slot");
+  var homeMapEl = document.getElementById("map-home");
 
-  if (!mapContent || !mapSlot) return;
+  if (!homeMapEl || typeof L === "undefined") return;
 
-  var desktopHome = mapContent.parentElement;
-  var mq = window.matchMedia("(max-width: 899px)");
+  var GOLDEN_HOUSE = { lat: 58.8466295, lng: 5.7152809 };
+  var POPUP_HTML = "<strong>Golden House</strong><br>Foren 2, 4318 Sandnes";
 
-  function applyLayout(event) {
-    if (event.matches) {
-      mapSlot.appendChild(mapContent);
-    } else {
-      desktopHome.appendChild(mapContent);
-    }
-  }
+  // Default marker icons assume co-located image files; point them at the CDN instead.
+  delete L.Icon.Default.prototype._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+    iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+    shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png"
+  });
 
-  mq.addEventListener("change", applyLayout);
-  applyLayout(mq);
+  var map = L.map(homeMapEl, { scrollWheelZoom: false }).setView([GOLDEN_HOUSE.lat, GOLDEN_HOUSE.lng], 16);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bidragsytere',
+    maxZoom: 19
+  }).addTo(map);
+  L.marker([GOLDEN_HOUSE.lat, GOLDEN_HOUSE.lng]).addTo(map).bindPopup(POPUP_HTML);
 })();
 
 (function () {
