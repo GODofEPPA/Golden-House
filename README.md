@@ -19,7 +19,7 @@ og gå til `http://localhost:8000`.
 - [x] **E-postadresse** — satt til `goldenhouse@gmail.com`
 - [x] **Kart** — kartet i `kontakt.html` og `index.html` bruker den bekreftede adressen "Foren 2, 4318 Sandnes" via Google Maps-embed
 - [ ] **Domene** — `https://www.goldenhouse.no/` er placeholder brukt i canonical-tagger, Open Graph, sitemap.xml og robots.txt — oppdater til faktisk domene
-- [ ] **Meny og priser** — eksempelretter i `meny.html` og menyhøydepunkter i `index.html` må erstattes med ekte meny
+- [x] **Meny og priser** — ekte meny (fra `Golden_House_meny_2025.xlsx`) i `meny.html`, med tre utvalgte retter som menyhøydepunkter i `index.html`
 - [ ] **Om oss-tekst** — historien/teksten i `om-oss.html` er eksempeltekst
 
 ## Bilder / illustrasjoner
@@ -34,7 +34,7 @@ Siden bruker en blanding av ekte foto og håndtegnede SVG-illustrasjoner (linjet
 - Menyhøydepunkt-ikoner: `index.html` (`.dish-icon` i hvert kort)
 - Illustrasjonspaneler: `om-oss.html` (`.illustration-panel`)
 
-Menykategoriene i `meny.html` hadde tidligere egne strek-ikoner (`.category-icon`), men disse er fjernet for å unngå stilbrudd mot de nye fotoseksjonene — kategoriene bruker nå ren tekst, med plan om å erstatte dem med ekte matbilder når den ekte menyen er klar.
+Menykategoriene i `meny.html` hadde tidligere egne strek-ikoner (`.category-icon`), men disse er fjernet for å unngå stilbrudd mot de nye fotoseksjonene — kategoriene bruker nå ren tekst, med plan om å legge til ekte matbilder senere.
 
 ## Struktur
 

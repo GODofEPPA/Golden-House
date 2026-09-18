@@ -589,6 +589,59 @@ p {
   white-space: nowrap;
 }
 
+.menu-item-name.has-nr {
+  position: relative;
+  padding-left: 2.6rem;
+}
+
+.menu-item-nr {
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.menu-badge-new {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: var(--color-red);
+  color: var(--color-cream);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.menu-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.menu-jump a {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--color-gold);
+  border-radius: 999px;
+  color: var(--color-black);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu-jump a:hover,
+.menu-jump a:focus-visible {
+  background: var(--color-gold);
+}
+
+.menu-category {
+  scroll-margin-top: 5rem;
+}
+
 .menu-note {
   background: var(--color-cream-dark);
   border-left: 4px solid var(--color-gold);
