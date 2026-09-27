@@ -7,22 +7,26 @@
         {
           "nr": 1,
           "name": "Vårrull (2 stk)",
-          "price": 85
+          "price": 85,
+          "new": false
         },
         {
           "nr": 2,
           "name": "Helstekt svineribbe med søt/sur saus",
-          "price": 95
+          "price": 95,
+          "new": false
         },
         {
           "nr": 3,
           "name": "Satay kylling på spyd",
-          "price": 85
+          "price": 85,
+          "new": false
         },
         {
           "nr": 4,
           "name": "Sprøstekt kongereker på Singapore vis",
-          "price": 99
+          "price": 99,
+          "new": false
         },
         {
           "nr": 5,
@@ -33,17 +37,25 @@
         {
           "nr": 6,
           "name": "Sprøstekt wán-tán",
-          "price": 85
+          "price": 85,
+          "new": false
         },
         {
           "nr": 7,
           "name": "Krabbestikk vårrull",
-          "price": 85
+          "price": 85,
+          "new": false
         },
         {
           "nr": 8,
           "name": "Fritert dumpling fylt med reker",
           "price": 85,
+          "new": true
+        },
+        {
+          "nr": 88,
+          "name": "ESPENSPESIAL",
+          "price": 2000,
           "new": true
         }
       ]
@@ -55,27 +67,32 @@
         {
           "nr": 9,
           "name": "Pekingsuppe (sterk)",
-          "price": 79
+          "price": 79,
+          "new": false
         },
         {
           "nr": 10,
           "name": "Maisuppe med kylling og krabbestikk",
-          "price": 79
+          "price": 79,
+          "new": false
         },
         {
           "nr": 11,
           "name": "Wán-tán suppe",
-          "price": 85
+          "price": 85,
+          "new": false
         },
         {
           "nr": 12,
           "name": "Tomatsuppe med kylling og egg",
-          "price": 79
+          "price": 79,
+          "new": false
         },
         {
           "nr": 13,
           "name": "Thai Tom yum gai kongereker / kylling (sterk)",
-          "price": 89
+          "price": 89,
+          "new": false
         }
       ]
     },
@@ -86,97 +103,116 @@
         {
           "nr": 14,
           "name": "Oksekjøtt i skiver med grønnsaker",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 15,
           "name": "Sprøstekt oksekjøtt med peppersaus",
-          "price": 195
+          "price": 195,
+          "new": false
         },
         {
           "nr": 16,
           "name": "Oksekjøtt i skiver med karri (sterk)",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 17,
           "name": "Sze chuan oksekjøtt (sterk++)",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 18,
           "name": "Oksekjøtt med ananas",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 19,
           "name": "Oksekjøtt i skiver med brokkoli",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 20,
           "name": "Frityrstekt oksekjøtt på kinesisk vis",
-          "price": 195
+          "price": 195,
+          "new": false
         },
         {
           "nr": 21,
           "name": "Oksekjøtt i skiver og XO saus",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 22,
           "name": "Oksekjøtt i skiver på Shanghai vis (sterk)",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 23,
           "name": "Oksekjøtt, svinekjøtt, kylling, kongereke med grønnsaker",
-          "price": 205
+          "price": 205,
+          "new": false
         },
         {
           "nr": 24,
           "name": "Oksekjøtt i skiver med kasjunøtter og chilisaus (sterk)",
-          "price": 195
+          "price": 195,
+          "new": false
         },
         {
           "nr": 25,
           "name": "Indrefilet i skiver med mango",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 26,
           "name": "Indrefilet med peppersaus",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 27,
           "name": "Indrefilet med grønnsaker og XO saus",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 28,
           "name": "Indrefilet med brokkoli",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 29,
           "name": "Indrefilet på Sze chuan vis (sterk++)",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 30,
           "name": "Indrefilet på kinesisk vis",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 31,
           "name": "Oksekjøtt i skiver på Thai vis (sterk)",
-          "price": 185
+          "price": 185,
+          "new": false
         },
         {
           "nr": 35,
           "name": "Oksekjøtt i skiver med satay saus",
-          "price": 185
+          "price": 185,
+          "new": false
         }
       ]
     },
@@ -187,32 +223,38 @@
         {
           "nr": 32,
           "name": "Sze chuan svinekjøtt (sterk++)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 33,
           "name": "Svinekjøtt med grønnsaker (chop suey)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 34,
           "name": "Frityrstekt svinekjøtt med søt/sur saus",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 36,
           "name": "Helstekt svineribbe med søt/sur saus",
-          "price": 205
+          "price": 205,
+          "new": false
         },
         {
           "nr": 38,
           "name": "Frityrstekt svinekoteletter med pommes frites",
-          "price": 205
+          "price": 205,
+          "new": false
         },
         {
           "nr": 39,
           "name": "Frityrstekt svinekjøtt med peppersaus",
-          "price": 189
+          "price": 189,
+          "new": false
         }
       ]
     },
@@ -223,87 +265,104 @@
         {
           "nr": 40,
           "name": "Kylling i skiver med grønnsaker",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 41,
           "name": "Frityrstekt kylling med peppersaus",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 42,
           "name": "Kylling i skiver med karri (sterk)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 43,
           "name": "Kylling i skiver med kasjunøtter",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 44,
           "name": "Kylling i skiver med ananas",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 45,
           "name": "Kylling i skiver på Sze chuan saus (sterk)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 46,
           "name": "Kylling i skiver med gon bao kasjunøtter (sterk)",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 47,
           "name": "Kylling i skiver med Hoisinsaus kasjunøtter",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 48,
           "name": "Frityrstekt kylling i skiver med sitronsaus",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 49,
           "name": "Kylling i skiver med chilisaus kasjunøtter (sterk)",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 201,
           "name": "Frityrstekt kylling med søt/sur saus",
-          "price": 189
+          "price": 189,
+          "new": false
         },
         {
           "nr": 202,
           "name": "Kylling på Thai vis (sterk)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 203,
           "name": "Satay kylling på spyd",
-          "price": 205
+          "price": 205,
+          "new": false
         },
         {
           "nr": 204,
           "name": "½ grillet kylling med pommes frites",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 205,
           "name": "Kylling i skiver med XO saus",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 207,
           "name": "Kylling i skiver med rød karrisaus (sterk)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 37,
           "name": "Frityrstekt kyllingfilet med pommes frites",
-          "price": 205
+          "price": 205,
+          "new": false
         }
       ]
     },
@@ -314,32 +373,38 @@
         {
           "nr": 50,
           "name": "Peking and",
-          "price": 265
+          "price": 265,
+          "new": false
         },
         {
           "nr": 51,
           "name": "Helstekt and i skiver med appelsinsaus",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 52,
           "name": "And i skiver med grønnsaker og XO saus",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 53,
           "name": "Frityrstekt and på Sze chuan vis (sterk)",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 54,
           "name": "Frityrstekt and med peppersaus",
-          "price": 255
+          "price": 255,
+          "new": false
         },
         {
           "nr": 55,
           "name": "Frityrstekt and med søt/sur saus",
-          "price": 255
+          "price": 255,
+          "new": false
         }
       ]
     },
@@ -350,22 +415,26 @@
         {
           "nr": 56,
           "name": "Lammekjøtt i skiver vårløk og ingefær (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 57,
           "name": "Lammekjøtt i skiver med peppersaus (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 58,
           "name": "Lammekjøtt i skiver med chilisaus (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 59,
           "name": "Lammekjøtt i skiver med karri (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         }
       ]
     },
@@ -376,37 +445,44 @@
         {
           "nr": 60,
           "name": "Kongereker med grønnsaker XO saus",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 61,
           "name": "Frityrstekt kongereker med appelsinsaus",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 62,
           "name": "Kongereker med karri (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 63,
           "name": "Frityrstekt kongereker med peppersaus",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 64,
           "name": "Frityrstekt kongereker på kinesisk vis",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 65,
           "name": "Frityrstekt kongereker på Thai vis (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 67,
           "name": "Innbakt kongereker med søt/sur saus",
-          "price": 219
+          "price": 219,
+          "new": false
         }
       ]
     },
@@ -417,27 +493,32 @@
         {
           "nr": 81,
           "name": "Stekt ris med kylling, skinke og reker",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 82,
           "name": "Stekt ris med oksekjøtt på Taiwan vis",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 83,
           "name": "Stekt ris med kongereker, vårløk og svinekjøtt",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 84,
           "name": "Stekt ris med karri (kongereker, kylling) (sterk)",
-          "price": 179
+          "price": 179,
+          "new": false
         },
         {
           "nr": 85,
           "name": "Stekt ris med kylling på Thai vis (sterk)",
-          "price": 165
+          "price": 165,
+          "new": false
         }
       ]
     },
@@ -448,47 +529,56 @@
         {
           "nr": 86,
           "name": "Stekt risnudler med oksekjøtt",
-          "price": 199
+          "price": 199,
+          "new": false
         },
         {
           "nr": 87,
           "name": "Stekt risnudler med kylling",
-          "price": 199
+          "price": 199,
+          "new": false
         },
         {
           "nr": 88,
           "name": "Stekt risnudler med svinekjøtt",
-          "price": 199
+          "price": 199,
+          "new": false
         },
         {
           "nr": 89,
           "name": "Stekt risnudler med helstekt svinekjøtt",
-          "price": 199
+          "price": 199,
+          "new": false
         },
         {
           "nr": 90,
           "name": "Stekt risnudler med oksekjøtt, svinekjøtt, kylling, kongereke",
-          "price": 219
+          "price": 219,
+          "new": false
         },
         {
           "nr": 91,
           "name": "Stekt risnudler med kylling på Thai vis (sterk)",
-          "price": 199
+          "price": 199,
+          "new": false
         },
         {
           "nr": 92,
           "name": "Kinesisk omelett (kylling, løk)",
-          "price": 150
+          "price": 150,
+          "new": false
         },
         {
           "nr": 93,
           "name": "Kinesisk rekomelett (reker/skinke)",
-          "price": 150
+          "price": 150,
+          "new": false
         },
         {
           "nr": 206,
           "name": "Stekt risnudler m. kongereker, helstekt svinekjøtt på Singapore vis (sterk)",
-          "price": 219
+          "price": 219,
+          "new": false
         }
       ]
     },
@@ -499,22 +589,26 @@
         {
           "nr": 95,
           "name": "Nuggets kylling med pommes frites",
-          "price": 89
+          "price": 89,
+          "new": false
         },
         {
           "nr": 96,
           "name": "Pølse med pommes frites",
-          "price": 89
+          "price": 89,
+          "new": false
         },
         {
           "nr": 99,
           "name": "Stekt ris med kylling, skinke og reker",
-          "price": 89
+          "price": 89,
+          "new": false
         },
         {
           "nr": 100,
           "name": "Pommes frites",
-          "price": 60
+          "price": 60,
+          "new": false
         }
       ]
     },
@@ -525,82 +619,98 @@
         {
           "nr": 110,
           "name": "Stekt ris med kylling, reker og skinke",
-          "price": 145
+          "price": 145,
+          "new": false
         },
         {
           "nr": 111,
           "name": "Stekt ris med karri (sterk)",
-          "price": 145
+          "price": 145,
+          "new": false
         },
         {
           "nr": 112,
           "name": "Oksekjøtt med grønnsaker",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 113,
           "name": "Svinekjøtt med grønnsaker",
-          "price": 159
+          "price": 159,
+          "new": false
         },
         {
           "nr": 114,
           "name": "Kylling med grønnsaker",
-          "price": 159
+          "price": 159,
+          "new": false
         },
         {
           "nr": 115,
           "name": "Kylling med karri",
-          "price": 159
+          "price": 159,
+          "new": false
         },
         {
           "nr": 116,
           "name": "Frityrstekt oksekjøtt med peppersaus",
-          "price": 175
+          "price": 175,
+          "new": false
         },
         {
           "nr": 117,
           "name": "Frityrstekt kylling med peppersaus",
-          "price": 175
+          "price": 175,
+          "new": false
         },
         {
           "nr": 118,
           "name": "Frityrstekt svinekjøtt med søt/sur saus",
-          "price": 175
+          "price": 175,
+          "new": false
         },
         {
           "nr": 119,
           "name": "Frityrstekt kylling med søt/sur saus",
-          "price": 175
+          "price": 175,
+          "new": false
         },
         {
           "nr": 120,
           "name": "Helstekt svineribbe med pommes frites & salat",
-          "price": 175
+          "price": 175,
+          "new": false
         },
         {
           "nr": 121,
           "name": "Vårrull med pommes frites og salat",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 122,
           "name": "Stekt risnudler med oksekjøtt",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 123,
           "name": "Stekt risnudler med kylling på Thai vis (sterk)",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 125,
           "name": "Oksekjøtt i skiver med karri (sterk)",
-          "price": 165
+          "price": 165,
+          "new": false
         },
         {
           "nr": 126,
           "name": "Oksekjøtt i skiver på Shanghai vis (sterk)",
-          "price": 165
+          "price": 165,
+          "new": false
         }
       ]
     },
@@ -610,51 +720,63 @@
       "items": [
         {
           "name": "Ekstra kjøtt",
-          "price": 65
+          "price": 65,
+          "new": false
         },
         {
           "name": "Ekstra ris (1 pers) eller 1 skål saus",
-          "price": 40
+          "price": 40,
+          "new": false
         },
         {
           "name": "Ekstra grønnsaker",
-          "price": 15
+          "price": 15,
+          "new": false
         },
         {
           "name": "Ekstra kasjunøtter",
-          "price": 25
+          "price": 25,
+          "new": false
         },
         {
           "name": "Ekstra soyasaus eller chilisaus",
-          "price": 15
+          "price": 15,
+          "new": false
         },
         {
           "name": "Stekt ris istedenfor kokt ris",
-          "price": 65
+          "price": 65,
+          "new": false
         },
         {
           "name": "Rekechips",
-          "price": 50
+          "price": 50,
+          "new": false
         },
         {
           "name": "1,5 liter brus",
-          "price": 50
+          "price": 50,
+          "new": false
         },
         {
           "name": "0,5 liter brus",
-          "price": 30
+          "price": 30,
+          "new": false
         },
         {
           "name": "Pommes frites istedenfor kokt ris",
-          "price": 35
+          "price": 35,
+          "new": false
         },
         {
           "name": "En pose frityrstekt kylling (svinekjøtt)",
-          "price": 115
+          "price": 115,
+          "new": false
         },
         {
           "name": "En pose frityrstekt oksekjøtt",
-          "price": 125
+          "price": 125,
+          "new": false
         }
       ]
     }
