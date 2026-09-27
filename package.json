@@ -1,0 +1,8 @@
+{
+  "name": "golden-house-nettside",
+  "private": true,
+  "description": "Statisk nettside for Golden House. Ingen build-steg for selve siden — dette er kun et hjelpeskript for menyen.",
+  "scripts": {
+    "build:menu": "node scripts/build-menu.js"
+  }
+}

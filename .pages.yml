@@ -1,0 +1,54 @@
+# Pages CMS-konfigurasjon (https://pagescms.org)
+#
+# Dette gir en innlogget redaktør et skjema for å endre retter og priser i
+# data/menu.json, i stedet for å redigere HTML direkte. Når skjemaet lagres,
+# committer Pages CMS rett til dette repoet, og en GitHub Action
+# (.github/workflows/build-menu.yml) bygger deretter meny.html og
+# menyhøydepunktene på forsiden på nytt automatisk.
+#
+# Sett opp på https://app.pagescms.org — se README.md for stegene.
+
+content:
+  - name: menu
+    label: "Meny (retter og priser)"
+    type: file
+    path: data/menu.json
+    fields:
+      - name: categories
+        label: "Kategorier"
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: id
+            label: "Anker-ID"
+            type: string
+            description: "Brukes internt i lenker (f.eks. #forretter). Ikke endre uten å sjekke med utvikler først — det kan ødelegge lenker fra menyens hurtignavigasjon."
+          - name: title
+            label: "Kategorinavn (overskrift på menysiden)"
+            type: string
+          - name: items
+            label: "Retter"
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name} — {price} kr"
+            fields:
+              - name: nr
+                label: "Rettnummer"
+                type: number
+                required: false
+                description: "Nummeret gjesten sier når de ringer og bestiller. La stå tomt for retter uten nummer (f.eks. under Ekstra/Tilbehør)."
+              - name: name
+                label: "Navn på retten"
+                type: string
+              - name: price
+                label: "Pris (kr)"
+                type: number
+              - name: new
+                label: "Merk med «Nyhet»-merke"
+                type: boolean
+                required: false
