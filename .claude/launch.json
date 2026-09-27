@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "golden-house-static",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["-c", "exec python3 -m http.server 8123 --directory '/Users/espen/Library/CloudStorage/OneDrive-Personlig/Claude/Golden house-nettside/Golden house'"],
+      "port": 8123
+    }
+  ]
+}

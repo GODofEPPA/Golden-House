@@ -1,0 +1,40 @@
+name: Bygg meny
+
+# Kjører automatisk hver gang data/menu.json endres (f.eks. når noen lagrer
+# en endring i Pages CMS), og regenererer meny.html + prisene i
+# "Menyhøydepunkter" på forsiden. Trigges ikke av sitt eget commit, siden det
+# commitet bare rører meny.html/index.html, ikke data/menu.json.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/menu.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-menu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bygg menyen fra data/menu.json
+        run: node scripts/build-menu.js
+
+      - name: Commit oppdatert HTML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meny.html index.html
+          if git diff --cached --quiet; then
+            echo "Ingen endringer å committe."
+          else
+            git commit -m "chore: regenerer meny-HTML fra data/menu.json"
+            git push
+          fi
